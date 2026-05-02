@@ -1,0 +1,29 @@
+/* Imagem de banner para o fundo */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Placeholder para quando não houver imagem de banner */
+.banner.no-image {
+    background: linear-gradient(135deg, var(--color-rose-dark), var(--color-rose), var(--color-rose-light));
+}
+
+/* Estilo para imagem de perfil quando disponível */
+.profile-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-rose-light);
+}
+
+/* Estilo para placeholder de imagem de cliente nos depoimentos */
+.client-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-rose-light);
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adelma Silva Studio - Micropigmentação e Design de Sobrancelhas e Micropigmentação</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/image-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="light-mode">
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn">
+            <i class="fas fa-moon dark-icon"></i>
+            <i class="fas fa-sun light-icon"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Adelma Silva</h1>
+                <p>Studio de Sobrancelhas e Micropigmentação</p>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#timeline">Trajetória</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner"
+        style="background-image: url('images/WhatsApp\ Image\ 2026-04-27\ at\ 21.20.39.jpeg');">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Realce sua beleza natural</h2>
+                <p>Micropigmentação e design de sobrancelhas com técnicas exclusivas</p>
+                <a href="#contato" class="btn btn-primary">Agende seu Horário</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Adelma Silva</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="profile-image">
+                    <img src="images/adelma.png" alt="Adelma Silva - Especialista em Micropigmentação">
+                </div>
+                <div class="profile-text">
+                    <p>Sou natural de Fortaleza, Ceará, e quando cheguei a São Paulo trabalhei por anos em empresas
+                        privadas. Após o nascimento do meu primeiro filho, decidi empreender para poder conciliar a
+                        maternidade com minha profissão.</p>
+                    <p>Comecei atendendo em casa, no quarto do meu filho, oferecendo depilação para vizinhas, amigas e
+                        familiares. Em 2007 fiz meu primeiro curso de Design de Sobrancelhas, e a partir daí descobri
+                        minha verdadeira paixão e profissão.</p>
+                    <p>Foram anos de dedicação e estudos até conquistar segurança para abrir meu estúdio, que hoje
+                        representa a realização de um sonho: transformar olhares e elevar a autoestima de cada cliente,
+                        com carinho, técnica e excelência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Micropigmentação de Sobrancelhas</h3>
+                    <p>Técnica que simula fios naturais, preenchendo falhas e definindo o formato ideal para seu rosto.</p>
+                    <a href="#" class="btn-whatsapp" data-service="Micropigmentação de Sobrancelhas">Agendar</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50" height="50"
+                            fill="currentColor">
+                            <path
+                                d="M256 352c-78.6 0-152.6-41.7-216-120 63.4-78.3 137.4-120 216-120s152.6 41.7 216 120c-63.4 78.3-137.4 120-216 120zM256 192c-40 0-80 20-120 60 40 40 80 60 120 60s80-20 120-60c-40-40-80-60-120-60z" />
+                        </svg>
+                    </div>
+                    <h3>Micropigmentação Labial</h3>
+                    <p>Realce a cor natural dos seus lábios ou corrija assimetrias com esta técnica exclusiva.</p>
+                    <a href="#" class="btn-whatsapp" data-service="Micropigmentação Labial">Agendar</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Design de Sobrancelhas</h3>
+                    <p>Modelagem personalizada que valoriza seu olhar e harmoniza suas expressões faciais.</p>
+                    <a href="#" class="btn-whatsapp" data-service="Design de Sobrancelhas">Agendar</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Depilação</h3>
+                    <p>Tratamento completo para renovar sua pele, removendo impurezas e estimulando a renovação celular.</p>
+                    <a href="#" class="btn-whatsapp" data-service="Depilação">Agendar</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Reconstrução de Sobrancelhas</h3>
+                    <p>Técnica avançada para restaurar sobrancelhas com falhas ou ausência de pelos, devolvendo
+                        naturalidade e harmonia ao rosto.</p>
+                    <a href="#" class="btn-whatsapp" data-service="Reconstrução de Sobrancelhas">Agendar</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-kiss-wink-heart"></i>
+                    </div>
+                    <h3>HidraGloss</h3>
+                    <p>Hidratação profunda dos lábios com efeito gloss, deixando-os mais macios, volumosos e com brilho
+                        saudável.</p>
+                    <a href="#" class="btn-whatsapp" data-service="HidraGloss">Agendar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Minha Trajetória</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="timeline-container">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2007</h3>
+                        <p>Primeiro curso de Design de Sobrancelhas — um marco que mudou minha vida.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Início</h3>
+                        <p>Empreendi em casa, atendendo vizinhas, amigas e familiares em um pequeno espaço no quarto do
+                            meu filho.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2007–2015</h3>
+                        <p>Investi em cursos e especializações constantes, sempre em busca de atualização e excelência.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2019</h3>
+                        <p>Com dedicação e experiência, conquistei segurança para abrir meu próprio Studio.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Hoje</h3>
+                        <p>Referência em beleza e autoestima, transformando olhares e histórias com carinho e técnica.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="certificados" class="certificados section-padding">
+        <div class="container">
+            <div class="section-header">
+                <div class="divider"></div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="localizacao" class="localizacao section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Localização</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="location-content">
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Mapa será carregado aqui</p>
+                    </div>
+                </div>
+                <div class="address-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Av. Arujá, 329 - 1º andar sala 1 - Colina Maria Luíza</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(55) 1197104-4653</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Terça a Sábado: 8h às 18h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+            </div>
+            <div class="social-media">
+                <h3>Siga-nos nas Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/adelmasilvamicro/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/adelmasilvamicro/" class="social-icon"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="whatsapp-cta">
+                    <a href="#" class="btn btn-whatsapp" id="whatsapp-direct">
+                        <i class="fab fa-whatsapp"></i> Agende pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Adelma Silva</h3>
+                    <p>Studio de Sobrancelhas e Micropigmentação</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i>(11)97104-4653</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Studio Adelma Silva. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
